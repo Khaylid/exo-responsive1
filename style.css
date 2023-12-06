@@ -1,0 +1,62 @@
+/*
+ *   Copyright (c) 2023 
+ *   All rights reserved.
+ */
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 50px 50px 0 50px;
+  background-color: #faf9f6;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+
+.main {
+  /*Le contenu "main" occupe tout son espace de façon égale, en l'occurence sur la verticale puisque la flex-direction est définie sur column*/
+  flex: 1;
+}
+
+h1 {
+  /*Taille de la police de h1*/
+  font-size: 5rem;
+}
+
+h2 {
+  margin-top: 0;
+}
+.blue_special {
+  /*Définition de la couleur du span en bleu*/
+  color: #191970;
+}
+
+.title-image {
+  float: left;
+  width: 300px;
+  height: 200px;
+  text-align: justify;
+  margin-right: 6%;
+}
+
+.card {
+  width: 45%;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+footer {
+  text-align: right;
+  color: midnightblue;
+  clear: both;
+}
+-----------------------------------1000000
+@media (max-width: 356px) {
+  .main {
+    font-size: 15px;
+  }  
+}
